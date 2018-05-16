@@ -4,6 +4,7 @@ public class Pessoa {
 	private String nome;
 	private String endereco;
 	private String telefone;
+	private char tipo;
 	private Integer id;
 	
 	public Pessoa(String nome, String endereco, String telefone) {
@@ -35,5 +36,11 @@ public class Pessoa {
 	}
 	public Integer getId() {
 		return id;
+	}
+	public char getTipo() {
+		return tipo;
+	}
+	public void setTipo(char tipo) {
+		this.tipo = tipo;
 	}
 }
